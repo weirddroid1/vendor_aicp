@@ -121,7 +121,7 @@ def get_default_revision():
 #    d = m.findall('default')[0]
 #    r = d.get('revision')
 #    return r.replace('refs/heads/', '').replace('refs/tags/', '')
-    return 'w16.2'
+    return 'x17.0'
 
 
 def get_from_manifest(devicename):
