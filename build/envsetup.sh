@@ -53,7 +53,7 @@ function mk_timer()
     return $ret
 }
 
-CLANG_VERSION=$(${ANDROID_BUILD_TOP}/build/soong/scripts/get_clang_version.py)
+CLANG_VERSION=$(${ANDROID_BUILD_TOP}/vendor/aicp/tools/get_clang_version.py)
 export LLVM_AOSP_PREBUILTS_VERSION="${CLANG_VERSION}"
 
 RUST_VERSION=$(grep 'RustDefaultVersion =' ${ANDROID_BUILD_TOP}/build/soong/rust/config/global.go | awk '{print $3}' | awk -F '"' '{print $2}')
