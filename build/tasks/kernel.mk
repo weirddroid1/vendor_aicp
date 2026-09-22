@@ -762,7 +762,7 @@ $(TARGET_PREBUILT_INT_KERNEL): $(DEPMOD) $(KERNEL_MODULES_PARTITION_FILE_LIST) $
 	$(hide) rm -rf $(KERNEL_OUT)
 	@mkdir -p $(KERNEL_OUT) $(KERNEL_BAZEL_OUT)
 	$(hide) cd $(BUILD_TOP) && \
-		python3 vendor/lineage/build/tools/kernel_kleaf_manifest.py $(TARGET_KERNEL_VERSION) \
+		python3 vendor/aicp/build/tools/kernel_kleaf_manifest.py $(TARGET_KERNEL_VERSION) \
 		> $(abspath $(KERNEL_OUT))/manifest.xml
 	$(hide) cd $(KERNEL_PATH) && \
 		./tools/bazel \
