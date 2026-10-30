@@ -2,7 +2,6 @@ PRODUCT_BRAND ?= AICP
 
 # AICP packages
 PRODUCT_PACKAGES += \
-    AicpExtras \
     TilesWallpaper
 
 # AICP Ad-block
