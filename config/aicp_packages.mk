@@ -38,15 +38,15 @@ PRODUCT_PACKAGES += \
     AppPredictionService
 
 # OmniJaws
-PRODUCT_PACKAGES += \
-    OmniJaws
+#PRODUCT_PACKAGES += \
+#    OmniJaws
 
 # Optional packages
 PRODUCT_PACKAGES += \
     WallpaperPicker2
 
-PRODUCT_PACKAGES += \
-    GameSpace
+#PRODUCT_PACKAGES += \
+#    GameSpace
 
 # Extra tools
 PRODUCT_PACKAGES += \
